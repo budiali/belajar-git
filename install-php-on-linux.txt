@@ -1,0 +1,32 @@
+Install PHP
+- sudo apt install php
+
+- sudo apt install libapache2-mod-php php-common php-mysql
+
+Install web server
+- sudo apt install apache2
+
+use web server
+- sudo service apache2 start
+- sudo service apache2 stop
+- sudo service apache2 restart
+- sudo service apache2 status
+
+hak akses direktori
+sudo chmod 777 /var/www/html/ -R
+
+install database server (MySql)
+- sudo apt install mysql-server
+
+use service database server mysql
+- sudo service mysql start
+- sudo service mysql stop
+- sudo service mysql restart
+- sudo service mysql status 
+
+install phpmyadmin
+- sudo apt install phpmyadmin
+
+NOTE: 
+- sudo apt install libapache2-mod-php
+- sudo dpkg-configure -plow phpmyadmin
