@@ -46,6 +46,15 @@ echo "$a <= $b hasilnya $c";
 echo "<hr>";
 
 
+$total_belanja = 8000;
+if($total_belanja >= 10000){
+    echo "Anda mendapatkan hadiah!";
+}else{
+    echo "Jika belanja senilai 10000 atau lebih akan dapat hadiah.. <br>";
+    echo "Total belanja anda $total_belanja <br>";
+    echo "Belanja lagi, untuk dapat hadiah!";
+}
+
 ?>
 
 
