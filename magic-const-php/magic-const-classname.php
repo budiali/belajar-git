@@ -1,11 +1,17 @@
 <?php 
 
 namespace Makhluk{
+
     class ClassMakhluk {
-    
+        
     }
 
-    echo "nama class nya adalah". ClassMakhluk::class;
+    class ClassMakhlukDua{
+
+    }
+
+    echo "nama class nya adalah : ". ClassMakhluk::class ."<br/>";
+    echo "nama class nya adalah : ". ClassMakhlukDua::class ."<br/>";
 }
 
 
