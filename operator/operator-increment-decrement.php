@@ -16,5 +16,6 @@ $score++;
 
 echo $score;
 
+// Output 8
 
 ?>
