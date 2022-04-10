@@ -39,5 +39,7 @@ foreach($anggota as $m){
     echo "anggota : $m <br>";
 }
 
+// print_r($anggota);
+
 
 ?>
