@@ -1,4 +1,7 @@
 <?php 
+/* 
+Array multi dimensi adalah array yang memiliki dimensi lebih dari satu. Biasanya digunakan untuk membuat matrik, graph, dan stuktur data rumit lainnya.
+*/
 
 $matrik = [
     [3,6,4],
